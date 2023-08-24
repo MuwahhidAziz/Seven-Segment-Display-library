@@ -13,6 +13,7 @@ void setup() {
 }
 
 void loop() {
+  // One segment patterns
   ssd.displayS(1);
   delay(delms);
   ssd.clear();
@@ -40,7 +41,9 @@ void loop() {
   ssd.displayS(7);
   delay(delms);
   ssd.clear();
-  
+  delay(delms);
+
+  // Two segment patterns
   ssd.displayS(1, 2);
   delay(delms);
   ssd.clear();
@@ -124,7 +127,9 @@ void loop() {
   ssd.displayS(6, 7);
   delay(delms);
   ssd.clear();
-  
+  delay(delms);
+
+  // Three segment patterns
   ssd.displayS(1, 2, 3);
   delay(delms);
   ssd.clear();
@@ -264,4 +269,269 @@ void loop() {
   ssd.displayS(5, 6, 7);
   delay(delms);
   ssd.clear();
+  delay(delms);
+
+  // Four segment patterns
+  ssd.displayS(1, 2, 3, 4);
+  delay(delms);
+  ssd.clear();
+
+  ssd.displayS(1, 2, 3, 5);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 3, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 3, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 4, 5);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 4, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 4, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 5, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 6, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(1, 3, 4, 5);
+  delay(delms);
+  ssd.clear();
+
+  ssd.displayS(1, 3, 4, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 3, 4, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 3, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 3, 5, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 3, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+      
+  ssd.displayS(2, 3, 4, 5);
+  delay(delms);
+  ssd.clear();
+
+  ssd.displayS(2, 3, 4, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 3, 4, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 3, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 3, 5, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 3, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(3, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(3, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(3, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(3, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  delay(delms);
+
+  // Five segment patterns
+  ssd.displayS(1, 2, 3, 4, 5);
+  delay(delms);
+  ssd.clear();
+
+  ssd.displayS(1, 2, 3, 4, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 3, 4, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 3, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 3, 5, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(1, 2, 3, 6, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(1, 2, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(1, 2, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+      
+  ssd.displayS(1, 2, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+      
+  ssd.displayS(1, 3, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 3, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(1, 3, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+      
+  ssd.displayS(1, 3, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+        
+  ssd.displayS(1, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+       
+  ssd.displayS(2, 3, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 3, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+    
+  ssd.displayS(2, 3, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+      
+  ssd.displayS(2, 3, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+        
+  ssd.displayS(2, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+          
+  ssd.displayS(3, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  delay(delms);
+
+  // Six segment patterns
+  ssd.displayS(1, 2, 3, 4, 5, 6);
+  delay(delms);
+  ssd.clear();
+
+  ssd.displayS(1, 2, 3, 4, 5, 7);
+  delay(delms);
+  ssd.clear();
+
+  ssd.displayS(1, 2, 3, 4, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 3, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 2, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(1, 3, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  
+  ssd.displayS(2, 3, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  delay(delms);
+
+  // Seven segment patterns
+  ssd.displayS(1, 2, 3, 4, 5, 6, 7);
+  delay(delms);
+  ssd.clear();
+  delay(delms);
 }
