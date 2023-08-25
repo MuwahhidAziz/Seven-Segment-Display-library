@@ -312,7 +312,7 @@ void SSD::display(int number){
 }
 void SSD::display(int number, bool point){
   display(number);
-  if(p == true){
+  if(p == true && point == true){
     digitalWrite(P, HIGH);
   }
 }
